@@ -1,0 +1,129 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[margin=1in]{geometry}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\vspace*{-40pt}
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Cameron Davison}}\\
+	Austin, TX $\cdot$ cameron.davison@gmail.com $\cdot$ 713.858.9123\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{University of Texas - 2009}\\
+BS Electrical and Computer Engineering \textit{GPA: 3.6}\\
+\vspace{2mm}
+
+%==== Objective ====%
+\header{Objective}
+As a Senior Engineer with experience at large and small companies who enjoys distributed systems and growing teams, I
+am looking for another opportunity to multiple my value at a company by developing great systems and mentoring
+exceptional engineers.
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{OneSpot} \hfill Austin, TX\\
+\textit{Senior Software Engineer} \hfill Jan 2019 - Aug 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+\item Improved logging visibility by managing the logging infrastructure in one place
+\item Deployed HashiCorp Vault to minimize shared passwords and allow efficient secret rotation
+\item Presented best practises for configuration management to the engineering team
+\end{itemize}
+
+\textbf{NoviLabs} \hfill Austin, TX\\
+\textit{Senior Software Engineer} \hfill Nov 2014 - Jan 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+\item Created backend services to support fast data analytics of potential oil wells
+\item Mentored developers and communicated system architecture designs
+\item Ran operations for the entire company, including cloud price optimization and system reliability
+\end{itemize}
+
+\textbf{Indeed.com} \hfill Austin, TX\\
+\textit{Software Developer} \hfill Sep 2009 - Nov 2014\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+\item Introduced RabbitMQ to aggregation team and advocated for its use in the entire company
+\item Built DevOps team to bridge growing chasm between SysAdmin and Development teams
+\item Interviewed multiple developers a week and mentored new interviewers
+\end{itemize}
+
+\textbf{Microsoft} \hfill Seattle, WA\\
+\textit{Software Developer Intern} \hfill Summer 2008\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+\item Developed and Tested prototype for LINQ integration into product
+\end{itemize}
+
+\textbf{BlueCoat Systems} \hfill Austin, TX\\
+\textit{Software Engineering Co-op} \hfill Jun 2007 - Dec 2007\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+\item Developed Software for Java web client, and JavaScript frontend
+\item Collaborated on application design and UI
+\end{itemize}
+
+\textbf{Advanced Micro Devices, Inc} \hfill Austin, TX\\
+\textit{Software Engineering Co-op} \hfill Jan 2006 - Aug 2006\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+\item Developed tests around well known specifications
+\item Researched and documented protocols used for managing systems
+\end{itemize}
+
+%==== Skills ====%
+\header{Skills}
+\begin{tabular}{ l l }
+    Programming: & Python, Java, JavaScript(React/Webpack/Parcel), Kotlin, Rust\\
+    Infrastructure: & AWS/GCP, HashiCorp Consul/Nomad/Vault, Prometheus, Terraform/Ansible\\
+    Development Tools: & Docker, Gradle/Maven, Git/Github\\
+    Data Science: & Pandas, Jupyter, scikit-learn \\
+    Systems: & Elasticsearch/Logstash, Redis/MongoDB, Postgres/MySQL, Kafka/RabbitMQ\\
+\end{tabular}
+\vspace{2mm}
+
+%==== Accomplishments ====%
+\header{Accomplishments}
+\begin{tabular}{ l l }
+    President, HKN (Electrical Engineering Honors Society)\\
+    Officer, Institute of Electrical and Electronics Engineers (IEEE)\\
+    Member, IEEE Robotics Club\\
+    Member, KTE (Coop Honors Society)\\
+\end{tabular}
+\vspace{2mm}
+
+Employability Status: \textbf{US Citizen / Permanent Resident}\\
+
+%=== END ===%
+\ 
+\end{document}
