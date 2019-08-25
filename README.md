@@ -1,5 +1,7 @@
 ## Cameron Davison's Resume
 
+### [resume](./resume.pdf)
+
 install mactex with
 ```bash
 brew cask install mactex
